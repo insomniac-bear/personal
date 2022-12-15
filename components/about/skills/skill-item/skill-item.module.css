@@ -1,0 +1,52 @@
+@keyframes rotate {
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes showed {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.skills_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 270px;
+  height: 270px;
+  background-color: var(--accient-gray);
+  border-radius: 29px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
+  box-sizing: border-box;
+  animation: rotate 1s linear;
+}
+
+.icon {
+  animation: showed 1s linear;
+}
+
+.skills_title {
+  margin: 34px 0 0 0;
+  padding: 0;
+  font-family: var(--arodora);
+  font-size: 24px;
+  text-align: center;
+  animation: showed 1s linear;
+}
+
+.skills_footer {
+  margin: 0 auto;
+  padding-bottom: 110px;
+  width: 1180px;
+}

@@ -1,0 +1,16 @@
+@import url("../vendors/fonts/fonts.css");
+
+:root {
+  /* base colors */
+  --main-text: #e4e4e4;
+  --main-blue: #00C4f0;
+  --main-orange: #E2A300;
+  --second-orange: #E29500;
+  --primary-gray: #414141;
+  --secondary-gray: #2d2d2d;
+  --third-gray: #2c2c2c;
+  --accient-gray: #2a2a2a;
+
+  /* .base fonts */
+  --arodora: ArodoraPro, Arial, sans-serif;
+}

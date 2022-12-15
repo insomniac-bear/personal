@@ -1,0 +1,22 @@
+.skills {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1180px;
+  min-width: 320px;
+}
+
+.skills_list {
+  margin: 0 auto;
+  padding: 122px 0 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px 30px;
+}
+
+.skills_footer {
+  margin: 0 auto;
+  padding-bottom: 110px;
+  width: 1180px;
+}

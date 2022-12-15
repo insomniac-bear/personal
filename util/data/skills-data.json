@@ -1,0 +1,52 @@
+[
+  {
+    "id": 0,
+    "icon": "NextIcon",
+    "description": "SSR by NextJS"
+  },
+  {
+    "id": 1,
+    "icon": "ReactIcon",
+    "description": "SPA by ReactJS"
+  },
+  {
+    "id": 2,
+    "icon": "TSIcon",
+    "description": "TypeScript in all last projects"
+  },
+  {
+    "id": 3,
+    "icon": "ReduxIcon",
+    "description": "Redux Toolkit"
+  },
+  {
+    "id": 4,
+    "icon": "NestIcon",
+    "description": "REST API by NestJS"
+  },
+  {
+    "id": 5,
+    "icon": "PostgresIcon",
+    "description": "PostgreSQL"
+  },
+  {
+    "id": 6,
+    "icon": "MongoIcon",
+    "description": "MongoDB"
+  },
+  {
+    "id": 7,
+    "icon": "GitIcon",
+    "description": "GitHub or GitLab for saving code"
+  },
+  {
+    "id": 8,
+    "icon": "BEMIcon",
+    "description": "Can use BEM methodology"
+  },
+  {
+    "id": 9,
+    "icon": "AgileIcon",
+    "description": "Known about Agile methodologies"
+  }
+]

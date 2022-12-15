@@ -1,0 +1,195 @@
+@keyframes movingNest {
+    0% {
+      transform: rotate(-30deg);
+    }
+    100% {
+      transform: rotate(10deg);
+    }
+}
+
+@keyframes movingReact {
+  0% {
+    transform: rotate(-35deg);
+  }
+  100% {
+    transform: rotate(36deg);
+  }
+}
+
+@keyframes movingNext {
+    0% {
+      transform: rotate(-20deg);
+    }
+    100% {
+      transform: rotate(40deg);
+    }
+}
+
+@keyframes movingTS {
+    0% {
+      transform: rotate(15deg)
+    }
+    100% {
+      transform: rotate(-12deg);
+    }
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1920px;
+  width: 100%;
+  min-width: 320px;
+}
+
+.container {
+  margin: 0;
+  padding-top: 25%;
+  padding-left: 15%;
+  width: 100%;
+  max-width: 960px;
+  min-width: 320px;
+}
+
+.subTitle {
+  margin: 0;
+  padding: 0;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.12;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.13;
+  text-transform: uppercase;
+  max-width: 500px;
+}
+
+.text {
+  margin: 0;
+  padding: 10px 0 0 0;
+  font-family: var(--arodora);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.16;
+  max-width: 430px;
+}
+
+.button {
+  margin-top: 6.13%;
+}
+
+.animation {
+  position: relative;
+  margin: 0;
+  padding: 100% 0 0 0;
+  width: 100%;
+  background-image: url('./main-bg-1920.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.animation__decor {
+  position: absolute;
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 58.33%;
+  height: 7.083%;
+  background-image: url(./sub-bg-1920.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  top: 60%;
+  left: 40%;
+}
+
+.animation__item {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4.6875vw;
+  max-width: 90px;
+  height: 4.6875vw;
+  max-height: 90px;
+  background-image: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+  border-radius: 50%;
+}
+
+.animation__item_react {
+  composes: animation__item;
+  top: 45.31%;
+  left: 12.6%;
+  animation: movingReact 10s infinite linear alternate;
+  transform-origin: 398% 50%;
+}
+
+.animation__item_nest {
+  composes: animation__item;
+  top: 45.31%;
+  left: 78.02%; 
+  animation: movingNest 16s infinite linear alternate;
+  transform-origin: -300% 50%;
+}
+
+.animation__item_next {
+  composes: animation__item;
+  top: 12.6%;
+  left: 45.31%;
+  animation: movingNext 13s infinite linear alternate;
+  transform-origin: 50% 398%;
+}
+
+.animation__item_ts {
+  composes: animation__item;
+  top: 78.02%;
+  left: 45.31%;
+  animation: movingTS 8s infinite linear alternate;
+  transform-origin: 50% -300%;
+}
+
+.animation__icon {
+  width: 66.66%;
+  height: 66.66%;
+}
+
+@media screen and (max-width: 1199px) {
+  .container {
+    padding-top: 15%;
+  }
+
+  .subTitle {
+    font-size: 24px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section {
+    display: block;
+  }
+
+  .container {
+    padding: 30px 5% 0 5%;
+  }
+
+  .animation {
+    display: none;
+  }
+}

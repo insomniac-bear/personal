@@ -1,9 +1,15 @@
+@import url('../vendors/normalize.css');
+@import url('../vendors/fonts/fonts.css');
+@import url('./constants.css');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: Nextart, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: var(--main-text);
+  background-image: linear-gradient(101.56deg, #2C2C2C 1.56%, #1C1C1C 95.55%);
 }
 
 a {
@@ -15,12 +21,8 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
