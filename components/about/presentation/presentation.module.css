@@ -111,3 +111,46 @@
   font-size: 20px;
   line-height: 1.19;
 }
+
+@media screen and (max-width: 1279px) {
+  .item_1,
+  .item_2,
+  .item_5 {
+    display: none;
+  }
+
+  .container {
+    background-image: none;
+    box-sizing: border-box;
+  }
+
+  .presentation {
+    grid-template-areas:
+      'title'
+      'text';
+    grid-template-columns: 1fr;
+    align-items: center;
+    align-content: center;
+    justify-items: stretch;
+    align-items: center;
+    margin: 0;
+    padding: 0 40px;
+    }
+
+    .title {
+      font-size: 24px;
+      transform: translateY(15px);
+    }
+
+    .item_4 {
+      padding: 30px;
+      border-top-left-radius: 14px;
+    }
+
+    .text {
+      max-width: 940px;
+      min-width: 200px;
+      width: auto;
+      font-size: 16px;
+    }
+}

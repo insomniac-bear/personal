@@ -18,5 +18,20 @@
 .skills_footer {
   margin: 0 auto;
   padding-bottom: 110px;
-  width: 1180px;
+  width: 100%;
+  max-width: 1180px;
+}
+
+@media screen and (max-width: 1279px) {
+  .skills {
+    width: 90%;
+  }
+
+  .skills_footer {
+    padding-bottom: 40px;
+  }
+
+  .skills_list {
+    padding-top: 60px;
+  }
 }

@@ -136,7 +136,7 @@
 .animation__item_nest {
   composes: animation__item;
   top: 45.31%;
-  left: 78.02%; 
+  left: 78.02%;
   animation: movingNest 16s infinite linear alternate;
   transform-origin: -300% 50%;
 }
@@ -183,6 +183,7 @@
 @media screen and (max-width: 767px) {
   .section {
     display: block;
+    padding-bottom: 30px;
   }
 
   .container {
