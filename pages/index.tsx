@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { About } from '../components/about/about';
 import { Header } from '../components/header/header';
 import { Intro } from '../components/intro/intro';
+import { Portfolio } from '../components/portfolio/portfolio';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <main>
         <Intro />
         <About />
+        <Portfolio />
       </main>
 
       <footer>
