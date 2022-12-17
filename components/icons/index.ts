@@ -1,5 +1,6 @@
 import { FC } from 'react';
 import { AgileIcon } from './agile-icon';
+import { ArrowIcon } from './arrow-icon';
 import { BEMIcon } from './bem-icon';
 import { GitIcon } from './git-icon';
 import { MongoIcon } from './mongo-icon';
@@ -13,6 +14,7 @@ import { IIconProps } from './IIconProps';
 
 export type TIcons = {
   AgileIcon: FC<IIconProps>;
+  ArrowIcon: FC<IIconProps>;
   BEMIcon: FC<IIconProps>;
   GitIcon: FC<IIconProps>;
   MongoIcon: FC<IIconProps>;
@@ -26,6 +28,7 @@ export type TIcons = {
 
 export {
   AgileIcon,
+  ArrowIcon,
   BEMIcon,
   GitIcon,
   MongoIcon,
